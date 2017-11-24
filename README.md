@@ -1,14 +1,14 @@
-# Alpine
+# Alpine C++
 
 ## Get Started
 
 ```
-    docker-compose rm
+    docker-compose rm -f
 ```
 ```
     docker-compose up
 ```
 ```
-    docker exec -it alpine_aioc_1 bash 
+    docker exec -it alpine_cpp bash 
 ```
 

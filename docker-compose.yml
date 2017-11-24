@@ -1,8 +1,10 @@
 version: '3'
 
 services:
-  aioc:
+  cpp:
     build: .
+    image: alpine_cpp:1.0
+    container_name: alpine_cpp
     volumes:
-      - .:/aioc
+      - .:/cpp
     tty: true
