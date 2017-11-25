@@ -1,14 +1,12 @@
 # Alpine C++
 
 ## Get Started
-
+start container
 ```
-    docker-compose rm -f
+$ docker-compose rm -f && docker-compose up
 ```
+login from another terminal
 ```
-    docker-compose up
-```
-```
-    docker exec -it alpine_cpp bash 
+$ docker exec -it alpine_cpp sh 
 ```
 
