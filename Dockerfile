@@ -1,8 +1,7 @@
-FROM alpine:latest
+FROM alpine:3.6
 
 RUN apk update && apk add build-base && apk add vim
 
 WORKDIR /cpp
 
-CMD ["/bin/sh"]
 
