@@ -4,4 +4,3 @@ RUN apk update && apk add build-base && apk add vim
 
 WORKDIR /cpp
 
-
