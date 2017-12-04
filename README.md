@@ -7,6 +7,6 @@ $ docker-compose rm -f && docker-compose up
 ```
 login from another terminal
 ```
-$ docker exec -it alpine_cpp sh 
+$ docker exec -it alpine_cpp zsh 
 ```
 
