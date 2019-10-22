@@ -1,9 +1,9 @@
-version: '3.6'
+version: '3.7'
 
 services:
   cpp:
     build: .
-    image: alpine_cpp:4.0
+    image: alpine_cpp:5.0
     container_name: alpine_cpp
     volumes:
       - .:/cpp
